@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Header</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<style>
+   .abc{
+        padding: 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+    margin: 10px;
+    /* color: #236efd; */
+    color: #236efd;
+        
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    ul li{
+        display: inline-block;
+      
+
+    }
+   ul li a{
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 10px;
+   }
+   .nav-link {
+    color: #236efd;
+    font-size: 1.1em;
+    font-weight: 700;
+   }
+   .write{
+    color: white;
+    margin-top: 80px;
+    padding-left: 40px;
+   }
+   .write1{
+    color: white;
+    padding-left: 40px;
+    margin-top: 40px;
+   }
+
+</style>
+</head>
+<body>
+ <header>
+                <label class="abc">Internship Hub</label>
+                <ul>
+                    
+                    <li><a href="/InternshipHub/jsp/HomePage.jsp">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/InternshipHub/jsp/Notice.jsp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Notice
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/InternshipHub/internship/addInternship.jsp">Add Notice</a></li><br>
+                          <li><a class="dropdown-item" href="#">Edit Notice</a></li><br>
+                           <li><a class="dropdown-item" href="#">View Notice</a></li><br>
+                         
+                        </ul>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Member
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">View Member</a></li><br>
+                          <li><a class="dropdown-item" href="#">Edit Member</a></li><br>
+                         
+                        </ul>
+                      </li>
+                      
+                       <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/InternshipHub/jsp/Internship.jsp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Internship
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">View Internship</a></li><br>
+                          <li><a class="dropdown-item" href="#">Edit Internship</a></li><br>
+                         
+                        </ul>
+                      </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Feedback
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">View Feedback</a></li><br>
+                         
+                         
+                        </ul>
+                      </li>
+                 </ul>
+                 
+              
+            </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
